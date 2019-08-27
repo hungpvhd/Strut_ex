@@ -15,8 +15,8 @@
             <result name="success">/store.com</result>
         </action>
         <action name="create" class="action.EventAction" method="createEvent">
-            <result name="success">/form.jsp</result>
-            <result name="input">/create-event.jsp</result>
+            <result name="success">/listEvent.jsp</result>
+            <result name="input">/form.jsp</result>
         </action>
         <action name="store" class="action.EventAction" method="store">
             <result name="success">/listEvent.jsp</result>
